@@ -1,3 +1,3 @@
-module Suma
+module github.com/jorgemarquez2222/remianGo
 
-go 1.18
+go 1.19

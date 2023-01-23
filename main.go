@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	funciones "github.com/jorgemarquez2222/remianGo/funciones"
 )
 
 type Persona struct {
@@ -30,6 +32,6 @@ func main() {
 	for _, v := range slice_ {
 		fmt.Println(v)
 	}
-	fmt.Println(Suma(3, 4))
+	fmt.Println(funciones.Suma(3, 4))
 
 }
